@@ -1,0 +1,118 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+  }
+
+.images{
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 70px;
+}
+
+  .header{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+  }
+
+  .photo-grid-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo-grid{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .first-item {
+    order: 1;
+  }
+  
+  .last-item {
+    order: -1;
+  }
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 200px;
+    background-color: #5995DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num{
+    height: 30px;
+    width: 30px;
+}
+
+/* Estudando varios meios de locar as tags.
+.images, .subscribe{
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+*/
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item{
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  flex: 1;
+  height: 200px;
+}
+
+.footer-three, .footer-one{
+  flex: initial;
+  width: 300px;
+  background-color: #5995DA;
+}
